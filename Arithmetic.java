@@ -16,4 +16,8 @@ public class Arithmetic {
     int computeSecondExpression(){
         return(a*b+c);
     }
+    int computeThirdExpression() {
+        return (c+a/b);
+    }
+
 }

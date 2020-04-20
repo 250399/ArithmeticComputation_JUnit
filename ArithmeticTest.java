@@ -12,8 +12,14 @@ public class ArithmeticTest {
     public void checkFirstExpression(){
         Assert.assertEquals(7,obj.computeFirstExpression());
     }
+
     @Test
     public void checkSecondExpression(){
         Assert.assertEquals(5,obj.computeSecondExpression());
+    }
+
+    @Test
+    public void checkThirdExpression(){
+        Assert.assertEquals(3,obj.computeThirdExpression());
     }
 }
