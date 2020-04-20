@@ -22,4 +22,9 @@ public class ArithmeticTest {
     public void checkThirdExpression(){
         Assert.assertEquals(3,obj.computeThirdExpression());
     }
+
+    @Test
+    public void checkFourthExpression(){
+        Assert.assertEquals(4,obj.computeFourthExpression());
+    }
 }

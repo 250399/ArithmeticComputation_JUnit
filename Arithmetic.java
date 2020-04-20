@@ -14,10 +14,13 @@ public class Arithmetic {
     }
 
     int computeSecondExpression(){
-        return(a*b+c);
+        return (a*b+c);
     }
     int computeThirdExpression() {
         return (c+a/b);
+    }
+    int computeFourthExpression(){
+        return (a%b+c);
     }
 
 }
