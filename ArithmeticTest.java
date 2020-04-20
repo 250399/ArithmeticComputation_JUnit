@@ -1,2 +1,8 @@
 package com.bl.demo;
-//Welcome to Arithmetic Computation
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class ArithmeticComputationTest {
+    ArithmeticComputation object = new ArithmeticComputation(1,2,3);
+
+}
